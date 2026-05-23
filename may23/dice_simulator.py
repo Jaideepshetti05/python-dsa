@@ -1,0 +1,9 @@
+import random
+
+while True:
+    print("Dice:", random.randint(1,6))
+
+    choice = input("Roll again? (y/n): ")
+
+    if choice.lower() != 'y':
+        break
