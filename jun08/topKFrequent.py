@@ -16,7 +16,7 @@ def topKFrequent(nums, k):
     return [num for num, count in top_k]
 
 
-nums = [1,1,1,2,2,3]
-k = 2
+nums = [1,1,1,2,2,2,2,3,5,5,5,5,5]
+k = 3
 
 print(topKFrequent(nums, k))
