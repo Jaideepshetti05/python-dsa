@@ -1,0 +1,4 @@
+arr = [1,2,3,4,5,6]
+
+for n in arr:
+    print(n, "Even" if n % 2 == 0 else "Odd")
