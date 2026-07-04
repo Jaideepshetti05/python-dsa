@@ -1,0 +1,5 @@
+numbers = [4,2,4,5,2,1,3,1]
+
+result = list(dict.fromkeys(numbers))
+
+print(result)
