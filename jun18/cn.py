@@ -4,7 +4,7 @@ ssthresh = 64
 print(f"Initial: cwnd={cwnd}, ssthresh={ssthresh}")
 
 # RTT 1
-cwnd *= 2
+cwnd *= 2git
 print(f"RTT 1: cwnd={cwnd}, ssthresh={ssthresh}")
 
 # RTT 2
