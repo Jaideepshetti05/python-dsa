@@ -1,3 +1,3 @@
-nums = [1,2,2,3,4,4,5]
+n = int(input())
 
-print(list(dict.fromkeys(nums)))
+print(len(str(abs(n))))
